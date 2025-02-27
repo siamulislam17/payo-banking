@@ -65,3 +65,4 @@ document.getElementById("trans-click").addEventListener("click", function(){
     document.getElementById("pay-bill").style.display='none';
     document.getElementById("transaction-history").style.display='block';
 })
+
