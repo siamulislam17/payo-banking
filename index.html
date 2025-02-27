@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+</head>
+<body class="bg-slate-800 min-h-screen">
+    <section class="max-w-md mx-auto h-screen bg-white">
+        <header>
+            <nav class="flex justify-center items-center  mx-auto">
+                <div class="flex justify-between items-center flex-col w-2/4 mt-20">
+                    <img src="assets/bg.png" alt="">
+                    <img class="absolute mt-8" src="assets/Group.png" alt="">
+                </div>
+            </nav>
+            <div class="  pt-1">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                  <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl pt-0">
+                    <form class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Account NUmber</span>
+                        </label>
+                        <input id="account-number" type="number" placeholder="Type your account number" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">PIN</span>
+                        </label>
+                        <input id="pin-number" type="text" placeholder="Type your PIN number" class="input input-bordered" required />
+                        <label class="label">
+                          <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                        </label>
+                      </div>
+                      <div class="form-control mt-6">
+                        <button id="log-in-btn" class="btn btn-primary bg-[#0874F2] rounded-2xl">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </header>
+        
+
+    </section>
+    <script src="script/logIn.js"></script>
+</body>
+</html>
